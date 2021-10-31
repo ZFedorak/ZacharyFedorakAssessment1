@@ -1,0 +1,86 @@
+.ui-link{
+  background-color: #f7efef;
+  color: rgb(92, 30, 30);
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.ui-heading{
+  text-align: center;
+}
+h1{
+  font-size: 48px;
+  color: #7c795d; font-family: 'Trocchi', serif; font-size: 45px; font-weight: normal; line-height: 48px; margin: 0; 
+}
+.ui-heading p{
+  font-size: 36px;
+}
+.div{
+  display: block;
+}
+.Cleaning{
+  background-color: lightblue;
+}
+
+.Shopping{
+  background-color: lightblue;
+}
+.Work{
+  background-color: lightblue;
+}
+.Cooking{
+  background-color: lightblue;
+}
+.Vehicle{
+  background-color: lightblue;
+}
+.todos{
+  border-radius: 0.8rem;
+      box-shadow: 0 6px 8px #888;
+      font-size: 1.8rem;
+      margin: 2rem 0;
+      padding: 2rem;
+      text-transform: capitalize;
+}
+li{
+  list-style-type: none;
+}
+.edit-button{
+  background: #3e64ff;
+    border-color: #3e64ff;
+    color: #fff;
+}
+.delete-button{
+  color: #fff;
+  border-color: #f0134d;
+  background: #f0134d;
+}
+.todos div{
+  display: flex;
+    gap: 2rem;
+    justify-content: center;
+    padding: 3rem 0 2rem;
+}
+.delete-button, .edit-button {
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+div{
+  display: block;
+}
+.container {
+  margin: 0 auto;
+  max-width: 55rem;
+  padding: 2rem;
+}
+body {
+  background-color: lightgoldenrodyellow;
+}
+.ui-button{
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  background-color: lightgreen;
+}
