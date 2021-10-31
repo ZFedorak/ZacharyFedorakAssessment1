@@ -9,8 +9,8 @@ const todoPage = function(){
     const page = document.createElement('div') 
     const container = todolist();
     const todoList = getStore()
-    const pageHeader = levelHeading('h1', 'Zachary Fedoraks TodoList')
-    const tagliner = tagline('Do not be late on yours Todos!')
+    const pageHeader = levelHeading('h1', 'Zachary Fedorak TodoList')
+    const tagliner = tagline('Do not be late on your Todos!')
     const createbutton = button('Create New Todo')
     if(todoList.length !== 0){
       const elements =  todoList.map(emp=>{
